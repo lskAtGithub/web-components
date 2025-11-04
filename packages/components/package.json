@@ -9,11 +9,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "vite build",
-    "dev": "vite",
-    "test": "vitest",
-    "lint": "eslint . --ext .ts,.js",
-    "prepare": "pnpm build"
+    "build": "rollup -c"
   },
   "peerDependencies": {
     "lit": "^2.0.0"
