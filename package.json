@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "test": "turbo run test"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +18,8 @@
     "eslint": "^9.39.1",
     "prettier": "^3.6.2",
     "turbo": "^2.6.0",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "vite": "7.1.12",
+    "vite-plugin-dts": "4.5.4"
   }
 }
