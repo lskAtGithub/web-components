@@ -1,0 +1,21 @@
+{
+  "name": "@w-components/components",
+  "version": "1.0.0",
+  "private": false,
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "test": "vitest",
+    "lint": "eslint . --ext .ts,.js",
+    "prepare": "pnpm build"
+  },
+  "peerDependencies": {
+    "lit": "^2.0.0"
+  }
+}
