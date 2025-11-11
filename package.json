@@ -1,0 +1,13 @@
+{
+  "name": "w-components",
+  "version": "1.0.0",
+  "workspaces": [
+    "packages/*",
+    "play"
+  ],
+  "scripts": {},
+  "devDependencies": {
+    "turbo": "^1.9.0",
+    "typescript": "^5.9.3"
+  }
+}
