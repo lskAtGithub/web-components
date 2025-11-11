@@ -5,8 +5,13 @@
     "packages/*",
     "play"
   ],
-  "scripts": {},
+  "scripts": {
+    "tailwind:init": "tailwindcss init -p"
+  },
   "devDependencies": {
+    "autoprefixer": "^10.4.22",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.18",
     "turbo": "^1.9.0",
     "typescript": "^5.9.3"
   }

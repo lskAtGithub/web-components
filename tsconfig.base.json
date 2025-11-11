@@ -19,7 +19,8 @@
   },
   "include": [
     "packages",
-    "play"
+    "play",
+    "tool"
   ],
   "exclude": [
     "node_modules",
