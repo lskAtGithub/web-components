@@ -3,13 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Web Components Demo</title>
+    <!-- 引入Tailwind CSS -->
+    <link rel="stylesheet" href="../tailwind.css" />
   </head>
-  <body>
-    <w-button>xxxx</w-button>
+  <body class="p-8 flex flex-col gap-4">
+    <h1 class="text-2xl font-bold mb-6">WButton 组件演示</h1>
+
+    <!-- 基本按钮 -->
+    <w-button>
+      <span onclick="alert('点击了基本按钮')">基本按钮</span>
+    </w-button>
+
+    <!-- 带前缀图标 -->
+    <w-button>
+      <span slot="prefix">⭐</span>
+      带前缀图标
+    </w-button>
+
+    <!-- 带后缀图标 -->
+    <w-button>
+      带后缀图标
+      <span slot="append">→</span>
+    </w-button>
+
+    <!-- 同时带前后缀图标 -->
+    <w-button>
+      <span slot="prefix">⭐</span>
+      完整按钮
+      <span slot="append">→</span>
+    </w-button>
 
     <script type="module">
-      import { WButton } from '@packages/WButton';
+      import '../packages/WButton/index.js';
     </script>
   </body>
 </html>
