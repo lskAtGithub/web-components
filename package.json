@@ -9,7 +9,9 @@
     "dev": "pnpm --filter play dev"
   },
   "devDependencies": {
+    "@tailwindcss/vite": "^4.1.17",
     "@types/node": "^24.10.0",
+    "tailwindcss": "^4.1.17",
     "turbo": "^1.9.0",
     "typescript": "^5.9.3",
     "vite": "^7.2.2"
